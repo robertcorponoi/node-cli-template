@@ -14,6 +14,7 @@ Every part of this template aims to be as documented as possible to make it easy
     - [Running Locally](#running-locally)
     - [Testing](#testing)
 - [Scripts](#scripts)
+- [Keeping Up To Date With Template Changes](#keeping-up-to-date-with-template-changes)
 - [License](#license)
 
 ## Tools
@@ -170,6 +171,28 @@ This test function tests the `greet` command by running it with an argument and 
 The test runner has a configuration file at `ava.config.js` and it specifies that we have TypeScript tests, and that our test files reside in the `test` directory. Any tests you add should have a similar format and go in the `test` directory as well. If you want to use a different set up, just update the `ava.config.js` file to reflect the changes.
 
 To run tests, simply use `npm test`.
+
+## Keeping Up To Date With Template Changes
+
+This template will be updated when dependencies need updating, new packages are added, and new or better concepts are found. To keep up with changes you might want from the template:
+
+1. Add the template repository as a remote:
+
+```sh
+git remote add template git@github.com:robertcorponoi/node-cli-template.git
+```
+
+2. Fetch the changes:
+
+```sh
+git fetch --all
+```
+
+3. Merge the changes from the main branch of the template repository:
+
+```sh
+git merge template/main
+```
 
 ## Scripts
 
