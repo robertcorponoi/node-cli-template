@@ -16,6 +16,7 @@ An opinionated template to use for Node.JS CLI applications. This template can b
     -   [Running Locally](#running-locally)
     -   [Testing](#testing)
 -   [Scripts](#scripts)
+-   [GitHub Actions](#github-actions)
 -   [Keeping Up To Date With Template Changes](#keeping-up-to-date-with-template-changes)
 -   [License](#license)
 
@@ -179,6 +180,12 @@ To run tests, simply use `npm test`.
 -   `build:watch` - This does the same thing the `build` script does but it also watches the `./src` directory for changes and recompiles and re-runs the `set-permissions` script when a change is made.
 
 -   `test` - This runs the tests in the `test` directory.
+
+## **GitHub Actions**
+
+The workflow at [.github/workflows/build-and-test.yml](./.github/workflows/build-and-test.yml) will run whenever a pull request is made.
+
+This action will install the dependencies, create the build, and then run the tests.
 
 ## **Keeping Up To Date With Template Changes**
 
