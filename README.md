@@ -187,6 +187,10 @@ The workflow at [.github/workflows/build-and-test.yml](./.github/workflows/build
 
 This action will install the dependencies, create the build, and then run the tests.
 
+## **Dependabot**
+
+This template uses [Dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates) to create pull requests for dependencies that are out of date. The configuration file can be found at [.github/dependabot.yml](./.github/dependabot.yml).
+
 ## **Keeping Up To Date With Template Changes**
 
 This template will be updated when dependencies need updating, new packages are added, and new or better concepts are found. To keep up with changes you might want from the template:
