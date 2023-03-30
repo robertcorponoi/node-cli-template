@@ -10,6 +10,7 @@
         "set-permissions": "chmod +x dist/index.js",
         "build": "tsc && npm run set-permissions",
         "build:watch": "concurrently \"tsc --watch\" \"npm run set-permissions\"",
+        "pretest": "npm run build",
         "test": "ava"
     },
     "keywords": [
@@ -25,11 +26,11 @@
         "@typescript-eslint/eslint-plugin": "^5.11.0",
         "@typescript-eslint/parser": "^5.11.0",
         "ava": "^5.1.0",
-        "concurrently": "^7.0.0",
+        "concurrently": "^8.0.1",
         "eslint": "^8.9.0",
         "prettier": "^2.6.2",
         "ts-node": "^10.5.0",
-        "typescript": "^4.5.5"
+        "typescript": "^5.0.2"
     },
     "dependencies": {
         "yargs": "^17.3.1"
