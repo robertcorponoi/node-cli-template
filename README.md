@@ -4,7 +4,7 @@
 
 An opinionated template to use for Node.JS CLI applications. This template can be easily extended to include any arguments and options you need.
 
-<div align="center">
+</div>
 
 **Table of Contents**
 
