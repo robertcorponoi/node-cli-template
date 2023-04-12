@@ -30,7 +30,7 @@
         "eslint": "^8.38.0",
         "prettier": "^2.6.2",
         "ts-node": "^10.5.0",
-        "typescript": "^5.0.3"
+        "typescript": "^5.0.4"
     },
     "dependencies": {
         "yargs": "^17.3.1"
