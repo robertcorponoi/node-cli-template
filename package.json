@@ -28,7 +28,7 @@
         "ava": "^5.1.0",
         "concurrently": "^8.0.1",
         "eslint": "^8.38.0",
-        "prettier": "^2.6.2",
+        "prettier": "^3.0.0",
         "ts-node": "^10.5.0",
         "typescript": "^5.0.4"
     },
